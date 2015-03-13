@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+<title>Intensivstation / html5 float / Template2</title>
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!-- 	html5 + CSS 3 Template created by miss monorom  http://intensivstation.ch 2011 -->
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<!-- by monorom -->
+</head>
+
+<body>
+<div id="container">
+
+<header>
+<a href="http://www.intensivstation.ch"><img src="http://www.intensivstation.ch/assets/Uploads/intensivstation-logo.png" alt="intensivstation.ch" /></a>
+<p>FREE HTML5 AND CSS3 TEMPLATES / OPEN SOURCE LEARNING</p>
+<h2>&lt;header&gt;</h2>
+
+</header>
+
+<nav>
+    <ul>
+             <li><a href="#"> &lt;nav&gt;</a></li>
+	  <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="content">
+		  <article>
+<h1>content &lt;section&gt;</h1>
+<p><b>2 Colums / centered / content and menu dynamic</b><br>
+  Handmade by monorom<br>
+  HTML5 Template CSS2/CSS3.</p>
+<p><img src="http://intensivstation.ch/assets/Uploads/download.gif" alt="css template" class="download" /> <a href="http://intensivstation.ch/assets/templates/intensivstation-html5-float-template-2.zip">Dowload FREE Template</a></p>
+<p><strong>2 Spalten Layoutraster</strong><br>
+		Linke Spalte und Inhalt sind dynamisch und passen sich den  <code>container</code> an.<br>
+Der <code>container</code> div zentriert das Layout.<br>
+Die <code>container</code> Breite wird mit <code>min-width</code> und <code>max-width</code> angegeben, das Layout wird dynamisch, passt sich dem Browserfenster an und sieht auch auf dem Pad gut aus. <br>
+Die  Spalten bekommen ihre Hintergrundfarbe vom <code>container</code> div.</p>
+<pre>#container {
+max-width: 1200px;
+min-width:960px;
+margin:10px  auto;
+background-color: #eee;
+}</pre>
+<p>Der <code>content</code> div ist 75% des <code>containers</code>. <br>
+  Dieses Layout hat eine minimale H&#xF6;he f&#252;r die content section, so dass Navigation und Inhalt immer gleich lang erscheinen.</p>
+<pre>section#content {
+float: left;
+width: 75%;
+padding: 20px;
+background-color: #fff;
+min-height:600px;
+}</pre>
+
+<h2> reset first</h2>
+<p>Am einfachsten lassen sich Positionen errechnen wenn alle Abstände auf &quot;0&quot; gesetzt sind.  
+Mit CSS3 <code>box-sizing</code> kann bestimmt werden, dass der Innenabstand <code>padding</code> und der Rand <code>border</code> in  <code>width</code> und  <code>height</code> eingerechnet wird. Siehe auch <a href="http://www.intensivstation.ch/css3/box-sizing/">intensivstation.ch/css3/box-sizing/</a></p>
+<pre>* {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}</pre>
+
+  </article>
+  </section>
+
+  <aside>
+ <h2>&lt;aside&gt;</h2>
+  	<pre>aside{
+float: right;
+width: 25%;
+padding:20px;
+}</pre>
+<p>
+<a href="http://www.monorom.com"><img src="http://www.intensivstation.ch/assets/Uploads/monorom-button.gif" alt="monorom" width="80" height="15" border="0"/></a><br />
+<!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by/1.0/"><img src="http://www.intensivstation.ch/assets/Uploads/cc.gif" alt="Creative Commons License" width="80" height="15" border="0"/></a><br />
+This work is licensed under a <br />
+<a rel="license" href="http://creativecommons.org/licenses/by/1.0/">Creative Commons License</a>.</p>
+ <p><img src="http://intensivstation.ch/assets/Uploads/html5-bw.png" alt="HTML5" border="0" /><br> </p>
+</aside>
+
+<footer>		
+    <h2>&lt;footer&gt;</h2>
+<pre>#footer {
+padding: 20px;
+clear:both;
+background-color: #564B47;
+color:#fff;
+}</pre>
+<p>Template  by miss monorom for <a href="http://www.intensivstation.ch/templates/">intensivstation</a></p>
+
+  </footer>
+</div>
+</body>
+</html>
