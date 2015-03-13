@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  
 /**
  *
- * @author rberrezueta
+ * @author rberrezueta, este comentario es para ver si se graba la diferencia
  */
 @Controller
 public class Logviewer {
